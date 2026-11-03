@@ -1,0 +1,20 @@
+# Trigataro | Portafolio de Desarrollador Full Stack
+
+> Portafolio profesional y sitio de proyectos personales de Claudio Ruiz (Trigataro), desarrollador Full Stack especializado en desarrollo web, soluciones para empresas y consultorías tecnológicas.
+
+## Acerca del sitio
+Este sitio web presenta una selección de proyectos publicados por Claudio Ruiz, mostrando sus habilidades técnicas, stack tecnológico y vías de contacto directo para proyectos remotos o colaboraciones.
+
+## Secciones Principales
+- [Inicio](https://trigataro.github.io/PersonalProyects/#inicio): Sección de presentación principal con perfil, tecnologías y estadísticas del portafolio.
+- [Proyectos](https://trigataro.github.io/PersonalProyects/#proyectos): Listado dinámico de trabajos y aplicaciones web desarrolladas y publicadas.
+- [Contacto](https://trigataro.github.io/PersonalProyects/#contacto): Canales de comunicación directa y formulario interactivo para consultas y propuestas.
+
+## Enlaces Externos y Recursos
+- [Perfil de GitHub (TriGataro)](https://github.com/TriGataro): Repositorios de código fuente y proyectos abiertos.
+- [Correo de Contacto](mailto:claudio.m.ruiz.h@gmail.com): claudio.m.ruiz.h@gmail.com
+
+## Stack Tecnológico Principal
+- **Frontend / Diseño:** HTML5, CSS3, JavaScript, Bootstrap 5, Iconos de Bootstrap.
+- **Backend / Lenguajes:** Python, C#, Go, SQL.
+- **Herramientas:** Git, Inteligencia Artificial aplicada al desarrollo.
