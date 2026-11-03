@@ -1,347 +1,314 @@
 <!DOCTYPE html>
 <html lang="es" prefix="og: https://ogp.me/ns#" data-bs-theme="light">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Claudio Ruiz | Desarrollador Full Stack | Trigataro </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Claudio Ruiz | Desarrollador Full Stack | Trigataro </title>
 
-    <!-- Metadatos principales para buscadores -->
-    <meta name="description" content="Portafolio de Trigataro, desarrollador web. Explora sus proyectos publicados y visita su perfil de GitHub.">
-    <meta name="keywords" content="Claudio Ruiz,Trigataro, desarrollador Full Stack, portafolio web, proyectos web, HTML5, CSS3, JavaScript, Bootstrap, Python, C#, Go, SQL, Git, IA,CI/CD">
-    <meta name="author" content="Claudio Ruiz,Trigataro">
-    <meta name="robots" content="index, follow, max-image-preview:large">
-    <meta name="googlebot" content="index, follow">
-    <meta name="theme-color" content="#f5f7fb" id="themeColor">
-    <link rel="canonical" href="https://trigataro.github.io/PersonalProyects/">
+  <!-- Metadatos principales para buscadores -->
+  <meta name="description" content="Portafolio de Trigataro, desarrollador web. Explora sus proyectos publicados y visita su perfil de GitHub.">
+  <meta name="keywords" content="Claudio Ruiz,Trigataro, desarrollador Full Stack, portafolio web, proyectos web, HTML5, CSS3, JavaScript, Bootstrap, Python, C#, Go, SQL, Git, IA,CI/CD">
+  <meta name="author" content="Claudio Ruiz,Trigataro">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="googlebot" content="index, follow">
+  <meta name="theme-color" content="#f5f7fb" id="themeColor">
+  <link rel="canonical" href="https://trigataro.github.io/PersonalProyects/">
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Trigataro">
-    <meta property="og:locale" content="es_ES">
-    <meta property="og:title" content="Claudio Ruiz | Desarrollador Full Stack | Trigataro">
-    <meta property="og:description" content="Explora los proyectos web publicados por Trigataro.">
-    <meta property="og:url" content="https://trigataro.github.io/PersonalProyects/">
-    <meta property="og:image" content="https://trigataro.github.io/PersonalProyects/img/logo.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="1254">
-    <meta property="og:image:height" content="1254">
-    <meta property="og:image:alt" content="Logo de Trigataro">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Trigataro">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:title" content="Claudio Ruiz | Desarrollador Full Stack | Trigataro">
+  <meta property="og:description" content="Explora los proyectos web publicados por Trigataro.">
+  <meta property="og:url" content="https://trigataro.github.io/PersonalProyects/">
+  <meta property="og:image" content="https://trigataro.github.io/PersonalProyects/img/logo.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1254">
+  <meta property="og:image:height" content="1254">
+  <meta property="og:image:alt" content="Logo de Trigataro">
 
-    <!-- Tarjetas para redes sociales -->
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Claudio Ruiz | Desarrollador Full Stack | Trigataro">
-    <meta name="twitter:description" content="Explora los proyectos publicados por Trigataro.">
-    <meta name="twitter:image" content="https://trigataro.github.io/PersonalProyects/img/logo.png">
-    <meta name="twitter:image:alt" content="Logo de Trigataro">
+  <!-- Tarjetas para redes sociales -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Claudio Ruiz | Desarrollador Full Stack | Trigataro">
+  <meta name="twitter:description" content="Explora los proyectos publicados por Trigataro.">
+  <meta name="twitter:image" content="https://trigataro.github.io/PersonalProyects/img/logo.png">
+  <meta name="twitter:image:alt" content="Logo de Trigataro">
 
-    <link rel="icon" href="img/logo.png" type="image/png" sizes="1254x1254">
-    <link rel="apple-touch-icon" href="img/logo.png">
+  <link rel="icon" href="img/logo.png" type="image/png" sizes="1254x1254">
+  <link rel="apple-touch-icon" href="img/logo.png">
 
-    <!-- Bootstrap y Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Bootstrap y Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css" rel="stylesheet">
 
-    <!-- Estilos propios del proyecto -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Estilos propios del proyecto -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Estilos de la órbita de tecnologías -->
+  <link rel="stylesheet" href="orbit.css">
 </head>
 <body>
-    <a class="skip-link" href="#inicio">Saltar al contenido principal</a>
+  <a class="skip-link" href="#inicio">Saltar al contenido principal</a>
 
-    <!-- Barra de navegación fija con controles de tema y compartir -->
-    <header class="site-header sticky-top">
-        <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
-            <div class="container">
-                <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
-                    <img src="img/logo.png" alt="Logo de Trigataro" class="brand-logo" width="42" height="42">
-                    <span class="brand-name">Trigataro</span>
-                </a>
+  <!-- Barra de navegación fija con controles de tema y compartir -->
+  <header class="site-header sticky-top">
+    <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
+          <img src="img/logo.png" alt="Logo de Trigataro" class="brand-logo" width="42" height="42">
+          <span class="brand-name">Trigataro</span>
+        </a>
 
-                <div class="d-flex align-items-center gap-2 ms-auto">
-                    <a class="btn btn-nav d-none d-lg-inline-flex" href="#proyectos">
-                        <i class="bi bi-grid-3x3-gap-fill" aria-hidden="true"></i>
-                        Proyectos
-                    </a>
-                    <a class="btn btn-nav d-none d-lg-inline-flex" href="#contacto">
-                        <i class="bi bi-envelope-fill" aria-hidden="true"></i>
-                        Contacto
-                    </a>
+        <div class="d-flex align-items-center gap-2 ms-auto">
+          <a class="btn btn-nav d-none d-lg-inline-flex" href="#proyectos">
+            <i class="bi bi-grid-3x3-gap-fill" aria-hidden="true"></i>
+            Proyectos
+          </a>
+          <a class="btn btn-nav d-none d-lg-inline-flex" href="#contacto">
+            <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+            Contacto
+          </a>
 
-                    <!-- Alterna entre tema claro y oscuro -->
-                    <button type="button" class="btn btn-nav btn-icon" id="themeToggle" aria-label="Cambiar tema de color" title="Cambiar tema de color">
-                        <i class="bi bi-moon-stars-fill" aria-hidden="true"></i>
-                    </button>
+          <!-- Alterna entre tema claro y oscuro -->
+          <button type="button" class="btn btn-nav btn-icon" id="themeToggle" aria-label="Cambiar tema de color" title="Cambiar tema de color">
+            <i class="bi bi-moon-stars-fill" aria-hidden="true"></i>
+          </button>
 
-                    <!-- Comparte la página con Web Share API o copia el enlace -->
-                    <button type="button" class="btn btn-share" id="shareButton" aria-label="Compartir esta página" title="Compartir esta página">
-                        <i class="bi bi-share-fill" aria-hidden="true"></i>
-                        <span class="d-none d-sm-inline">Compartir</span>
-                    </button>
-                </div>
-            </div>
-        </nav>
-    </header>
+          <!-- Comparte la página con Web Share API o copia el enlace -->
+          <button type="button" class="btn btn-share" id="shareButton" aria-label="Compartir esta página" title="Compartir esta página">
+            <i class="bi bi-share-fill" aria-hidden="true"></i>
+            <span class="d-none d-sm-inline">Compartir</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-        <!-- Presentación principal -->
-        <section class="hero" id="inicio">
-            <div class="container">
-                <div class="row align-items-center g-5">
-                    <div class="col-12 col-lg-7">
-                        <span class="badge hero-badge">
-                            <i class="bi bi-code-slash" aria-hidden="true"></i>
-                            Desarrollador Full Stack 
-                        </span>
+  <main>
+    <!-- Presentación principal -->
+    <section class="hero" id="inicio">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-12 col-lg-7">
+            <span class="badge hero-badge">
+              <i class="bi bi-code-slash" aria-hidden="true"></i>
+              Desarrollador Full Stack
+            </span>
 
-                        <h1 class="hero-title">
-                            Hello World, soy <span class="text-gradient">Claudio Ruiz</span>
-                        </h1>
+            <h1 class="hero-title">
+              Hello World, soy <span class="text-gradient">Claudio Ruiz</span>
+            </h1>
 
-                        <p class="hero-lead">
-                            Desarrollador Full Stack creo desarrollos personales, particulares y para empresas, además de hacer consultorias.
-                            Aquí encontrarás una pequeña selección de alguno de mis proyectos publicados.
-                        </p>
-
-                        <div class="d-flex flex-wrap gap-3">
-                            <a href="#proyectos" class="btn btn-brand btn-lg">
-                                <i class="bi bi-collection-fill" aria-hidden="true"></i>
-                                Ver proyectos
-                            </a>
-                            <a href="https://github.com/TriGataro" target="_blank" rel="noopener noreferrer" class="btn btn-outline-brand btn-lg">
-                                <i class="bi bi-github" aria-hidden="true"></i>
-                                GitHub
-                            </a>
-                        </div>
-
-                        <div class="hero-stats d-flex flex-wrap gap-4 mt-4">
-                            <div class="hero-stat">
-                                <strong id="heroProjectCount">0</strong>
-                                <span>proyectos publicados</span>
-                            </div>
-                            <div class="hero-stat">
-                                <strong>100%</strong>
-                                <span>responsive</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg-5">
-                        <div class="hero-visual text-center">
-                            <div class="hero-tech-orbit" role="group" aria-label="Lenguajes de programación e inteligencia artificial">
-                                <div class="hero-avatar-wrap">
-                                    <img src="img/logo.png" alt="Logo de Trigataro" class="hero-avatar" width="160" height="160">
-                                </div>
-
-                                <!-- Lenguajes ubicados alrededor del logo -->
-                                <span class="tech-chip tech-chip-html orbit-chip orbit-html">
-                                    <i class="bi bi-filetype-html" aria-hidden="true"></i>
-                                    HTML5
-                                </span>
-                                <span class="tech-chip tech-chip-csharp orbit-chip orbit-csharp">
-                                    <i class="bi bi-filetype-cs" aria-hidden="true"></i>
-                                    C#
-                                </span>
-                                <span class="tech-chip tech-chip-git orbit-chip orbit-git">
-                                    <i class="bi bi-git" aria-hidden="true"></i>
-                                    Git
-                                </span>
-                                <span class="tech-chip tech-chip-python orbit-chip orbit-python">
-                                    <i class="bi bi-filetype-py" aria-hidden="true"></i>
-                                    Python
-                                </span>
-                                <span class="tech-chip tech-chip-js orbit-chip orbit-js">
-                                    <i class="bi bi-filetype-js" aria-hidden="true"></i>
-                                    JavaScript
-                                </span>
-                                <span class="tech-chip tech-chip-go orbit-chip orbit-go">
-                                    <i class="bi bi-code-slash" aria-hidden="true"></i>
-                                    Go
-                                </span>
-                                <span class="tech-chip tech-chip-sql orbit-chip orbit-sql">
-                                    <i class="bi bi-filetype-sql" aria-hidden="true"></i>
-                                    SQL
-                                </span>
-                                <span class="tech-chip tech-chip-ai orbit-chip orbit-ai">
-                                    <i class="bi bi-cpu-fill" aria-hidden="true"></i>
-                                    IA
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Listado de proyectos generado desde data.js -->
-        <section class="projects-section" id="proyectos">
-            <div class="container">
-                <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between gap-3 mb-4">
-                    <div>
-                        <span class="section-eyebrow">Portafolio</span>
-                        <h2 class="section-title mb-1">Trabajos publicados</h2>
-                    </div>
-
-                    <span class="badge project-total">
-                        <i class="bi bi-collection" aria-hidden="true"></i>
-                        <span id="projectCount">0</span> proyectos
-                    </span>
-                </div>
-
-                <div id="projectGrid" class="row g-4"></div>
-
-                <div id="emptyState" class="empty-state text-center d-none">
-                    <i class="bi bi-inbox" aria-hidden="true"></i>
-                    <p class="mb-0">No hay proyectos visibles por el momento.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Sección de contacto -->
-        <section class="contact-section" id="contacto">
-            <div class="container">
-                <div class="row g-4 g-lg-5">
-                    <div class="col-12 col-lg-5">
-                        <div class="contact-info">
-                            <span class="section-eyebrow">Contacto</span>
-                            <h2 class="section-title mb-3">Hablemos de tu proyecto</h2>
-                            <p class="text-body-secondary">
-                                ¿Tienes una idea, una consulta o quieres trabajar conmigo?
-                                Completa el formulario y te responderé a la brevedad.
-                            </p>
-
-                            <ul class="contact-list list-unstyled">
-                                <li>
-                                    <span class="contact-icon" aria-hidden="true">
-                                        <i class="bi bi-envelope-fill"></i>
-                                    </span>
-                                    <div>
-                                        <span class="contact-label">Correo</span>
-                                        <a class="contact-value" href="mailto:claudio.m.ruiz.h@gmail.com">claudio.m.ruiz.h@gmail.com</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span class="contact-icon" aria-hidden="true">
-                                        <i class="bi bi-github"></i>
-                                    </span>
-                                    <div>
-                                        <span class="contact-label">GitHub</span>
-                                        <a class="contact-value" href="https://github.com/TriGataro" target="_blank" rel="noopener noreferrer">github.com/TriGataro</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <span class="contact-icon" aria-hidden="true">
-                                        <i class="bi bi-geo-alt-fill"></i>
-                                    </span>
-                                    <div>
-                                        <span class="contact-label">Disponibilidad</span>
-                                        <span class="contact-value">Proyectos remotos</span>
-                                    </div>
-                                </li>
-                            </ul>
-
-                            <button type="button" class="btn btn-outline-brand" id="copyEmailButton">
-                                <i class="bi bi-clipboard" aria-hidden="true"></i>
-                                Copiar correo
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg-7">
-                        <form class="contact-form" id="contactForm" novalidate>
-                            <div class="row g-3">
-                                <div class="col-12 col-md-6">
-                                    <label for="contactName" class="form-label">Nombre</label>
-                                    <input type="text" class="form-control" id="contactName" name="name" placeholder="Tu nombre" autocomplete="name" required minlength="2">
-                                    <div class="invalid-feedback">Ingresa tu nombre (mínimo 2 caracteres).</div>
-                                </div>
-
-                                <div class="col-12 col-md-6">
-                                    <label for="contactEmail" class="form-label">Correo electrónico</label>
-                                    <input type="email" class="form-control" id="contactEmail" name="email" placeholder="tu@correo.com" autocomplete="email" required>
-                                    <div class="invalid-feedback">Ingresa un correo electrónico válido.</div>
-                                </div>
-
-                                <div class="col-12">
-                                    <label for="contactSubject" class="form-label">Asunto</label>
-                                    <input type="text" class="form-control" id="contactSubject" name="subject" placeholder="¿En qué puedo ayudarte?" required minlength="3">
-                                    <div class="invalid-feedback">Escribe un asunto (mínimo 3 caracteres).</div>
-                                </div>
-
-                                <div class="col-12">
-                                    <label for="contactMessage" class="form-label">Mensaje</label>
-                                    <textarea class="form-control" id="contactMessage" name="message" rows="5" placeholder="Cuéntame sobre tu proyecto o consulta..." required minlength="10" maxlength="1500" aria-describedby="messageHelp messageCount"></textarea>
-                                    <div class="invalid-feedback">Escribe un mensaje (mínimo 10 caracteres).</div>
-                                    <div class="d-flex flex-column flex-sm-row justify-content-between gap-1 mt-1">
-                                        <small class="text-body-secondary" id="messageHelp">
-                                            Se abrirá tu cliente de correo con el mensaje listo para enviar.
-                                        </small>
-                                        <small class="text-body-secondary">
-                                            <span id="messageCount">0</span>/1500
-                                        </small>
-                                    </div>
-                                </div>
-
-                                <div class="col-12 d-flex flex-column flex-sm-row align-items-sm-center gap-3">
-                                    <button type="submit" class="btn btn-brand btn-lg">
-                                        <i class="bi bi-send-fill" aria-hidden="true"></i>
-                                        Enviar mensaje
-                                    </button>
-                                    <span class="small text-body-secondary">
-                                        <i class="bi bi-shield-check" aria-hidden="true"></i>
-                                        Tus datos solo se usan para responderte.
-                                    </span>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Llamado a visitar el perfil de GitHub -->
-        <section class="container pb-5">
-            <div class="cta-panel">
-                <div>
-                    <span class="section-eyebrow text-white-50">Seguimos creando</span>
-                    <h2 class="h3 fw-bold mb-2">¿Quieres conocer más de mi trabajo?</h2>
-                    <p class="mb-0 text-white-50">
-                        Visita mi perfil de GitHub para descubrir repositorios, código y nuevos proyectos.
-                    </p>
-                </div>
-
-                <a href="https://github.com/TriGataro" target="_blank" rel="noopener noreferrer" class="btn btn-light btn-lg cta-button">
-                    <i class="bi bi-github" aria-hidden="true"></i>
-                    Ver perfil de GitHub
-                </a>
-            </div>
-        </section>
-    </main>
-
-    <!-- Pie de página con el enlace al perfil de GitHub -->
-    <footer class="site-footer">
-        <div class="container">
-            <p class="footer-text mb-0">
-                Página hecha por
-                <a class="footer-author" href="https://github.com/TriGataro" target="_blank" rel="noopener noreferrer">
-                    <i class="bi bi-github" aria-hidden="true"></i>
-                    <span>Trigataro</span>
-                </a>
+            <p class="hero-lead">
+              Desarrollador Full Stack creo desarrollos personales, particulares y para empresas, además de hacer consultorias.
+              Aquí encontrarás una pequeña selección de alguno de mis proyectos publicados.
             </p>
-        </div>
-    </footer>
 
-    <!-- Mensajes de confirmación para compartir -->
-    <div class="toast-container position-fixed bottom-0 end-0 p-3">
-        <div id="shareToast" class="toast" role="status" aria-live="polite" aria-atomic="true">
-            <div class="d-flex">
-                <div class="toast-body" id="shareToastMessage">Enlace copiado al portapapeles.</div>
-                <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Cerrar mensaje"></button>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="#proyectos" class="btn btn-brand btn-lg">
+                <i class="bi bi-collection-fill" aria-hidden="true"></i>
+                Ver proyectos
+              </a>
+              <a href="https://github.com/TriGataro" target="_blank" rel="noopener noreferrer" class="btn btn-outline-brand btn-lg">
+                <i class="bi bi-github" aria-hidden="true"></i>
+                GitHub
+              </a>
             </div>
-        </div>
-    </div>
 
-    <!-- Librerías y scripts del proyecto -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="data.js"></script>
-    <script src="index.js"></script>
+            <div class="hero-stats d-flex flex-wrap gap-4 mt-4">
+              <div class="hero-stat">
+                <strong id="heroProjectCount">0</strong>
+                <span>proyectos publicados</span>
+              </div>
+              <div class="hero-stat">
+                <strong>100%</strong>
+                <span>responsive</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-5">
+            <!-- Órbita de tecnologías: los <li> los genera orbit.js desde su lista TECHS -->
+            <div class="orbit" data-orbit role="group" aria-label="Lenguajes de programación e inteligencia artificial">
+              <div class="orbit__core">
+                <img src="img/logo.png" alt="Logo de Trigataro" width="160" height="160">
+              </div>
+              <ul class="orbit__ring"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Listado de proyectos generado desde data.js -->
+    <section class="projects-section" id="proyectos">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row align-items-md-end justify-content-between gap-3 mb-4">
+          <div>
+            <span class="section-eyebrow">Portafolio</span>
+            <h2 class="section-title mb-1">Trabajos publicados</h2>
+          </div>
+          <span class="badge project-total">
+            <i class="bi bi-collection" aria-hidden="true"></i>
+            <span id="projectCount">0</span> proyectos
+          </span>
+        </div>
+
+        <div id="projectGrid" class="row g-4"></div>
+
+        <div id="emptyState" class="empty-state text-center d-none">
+          <i class="bi bi-inbox" aria-hidden="true"></i>
+          <p class="mb-0">No hay proyectos visibles por el momento.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section class="contact-section" id="contacto">
+      <div class="container">
+        <div class="row g-4 g-lg-5">
+          <div class="col-12 col-lg-5">
+            <div class="contact-info">
+              <span class="section-eyebrow">Contacto</span>
+              <h2 class="section-title mb-3">Hablemos de tu proyecto</h2>
+              <p class="text-body-secondary">
+                ¿Tienes una idea, una consulta o quieres trabajar conmigo?
+                Completa el formulario y te responderé a la brevedad.
+              </p>
+
+              <ul class="contact-list list-unstyled">
+                <li>
+                  <span class="contact-icon" aria-hidden="true">
+                    <i class="bi bi-envelope-fill"></i>
+                  </span>
+                  <div>
+                    <span class="contact-label">Correo</span>
+                    <a class="contact-value" href="mailto:claudio.m.ruiz.h@gmail.com">claudio.m.ruiz.h@gmail.com</a>
+                  </div>
+                </li>
+                <li>
+                  <span class="contact-icon" aria-hidden="true">
+                    <i class="bi bi-github"></i>
+                  </span>
+                  <div>
+                    <span class="contact-label">GitHub</span>
+                    <a class="contact-value" href="https://github.com/TriGataro" target="_blank" rel="noopener noreferrer">github.com/TriGataro</a>
+                  </div>
+                </li>
+                <li>
+                  <span class="contact-icon" aria-hidden="true">
+                    <i class="bi bi-geo-alt-fill"></i>
+                  </span>
+                  <div>
+                    <span class="contact-label">Disponibilidad</span>
+                    <span class="contact-value">Proyectos remotos</span>
+                  </div>
+                </li>
+              </ul>
+
+              <button type="button" class="btn btn-outline-brand" id="copyEmailButton">
+                <i class="bi bi-clipboard" aria-hidden="true"></i>
+                Copiar correo
+              </button>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-7">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="row g-3">
+                <div class="col-12 col-md-6">
+                  <label for="contactName" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="contactName" name="name" placeholder="Tu nombre" autocomplete="name" required minlength="2">
+                  <div class="invalid-feedback">Ingresa tu nombre (mínimo 2 caracteres).</div>
+                </div>
+
+                <div class="col-12 col-md-6">
+                  <label for="contactEmail" class="form-label">Correo electrónico</label>
+                  <input type="email" class="form-control" id="contactEmail" name="email" placeholder="tu@correo.com" autocomplete="email" required>
+                  <div class="invalid-feedback">Ingresa un correo electrónico válido.</div>
+                </div>
+
+                <div class="col-12">
+                  <label for="contactSubject" class="form-label">Asunto</label>
+                  <input type="text" class="form-control" id="contactSubject" name="subject" placeholder="¿En qué puedo ayudarte?" required minlength="3">
+                  <div class="invalid-feedback">Escribe un asunto (mínimo 3 caracteres).</div>
+                </div>
+
+                <div class="col-12">
+                  <label for="contactMessage" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="contactMessage" name="message" rows="5" placeholder="Cuéntame sobre tu proyecto o consulta..." required minlength="10" maxlength="1500" aria-describedby="messageHelp messageCount"></textarea>
+                  <div class="invalid-feedback">Escribe un mensaje (mínimo 10 caracteres).</div>
+                  <div class="d-flex flex-column flex-sm-row justify-content-between gap-1 mt-1">
+                    <small class="text-body-secondary" id="messageHelp">
+                      Se abrirá tu cliente de correo con el mensaje listo para enviar.
+                    </small>
+                    <small class="text-body-secondary">
+                      <span id="messageCount">0</span>/1500
+                    </small>
+                  </div>
+                </div>
+
+                <div class="col-12 d-flex flex-column flex-sm-row align-items-sm-center gap-3">
+                  <button type="submit" class="btn btn-brand btn-lg">
+                    <i class="bi bi-send-fill" aria-hidden="true"></i>
+                    Enviar mensaje
+                  </button>
+                  <span class="small text-body-secondary">
+                    <i class="bi bi-shield-check" aria-hidden="true"></i>
+                    Tus datos solo se usan para responderte.
+                  </span>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Llamado a visitar el perfil de GitHub -->
+    <section class="container pb-5">
+      <div class="cta-panel">
+        <div>
+          <span class="section-eyebrow text-white-50">Seguimos creando</span>
+          <h2 class="h3 fw-bold mb-2">¿Quieres conocer más de mi trabajo?</h2>
+          <p class="mb-0 text-white-50">
+            Visita mi perfil de GitHub para descubrir repositorios, código y nuevos proyectos.
+          </p>
+        </div>
+        <a href="https://github.com/TriGataro" target="_blank" rel="noopener noreferrer" class="btn btn-light btn-lg cta-button">
+          <i class="bi bi-github" aria-hidden="true"></i>
+          Ver perfil de GitHub
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página con el enlace al perfil de GitHub -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-text mb-0">
+        Página hecha por
+        <a class="footer-author" href="https://github.com/TriGataro" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github" aria-hidden="true"></i>
+          <span>Trigataro</span>
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Mensajes de confirmación para compartir -->
+  <div class="toast-container position-fixed bottom-0 end-0 p-3">
+    <div id="shareToast" class="toast" role="status" aria-live="polite" aria-atomic="true">
+      <div class="d-flex">
+        <div class="toast-body" id="shareToastMessage">Enlace copiado al portapapeles.</div>
+        <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Cerrar mensaje"></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Librerías y scripts del proyecto -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="orbit.js"></script>
+  <script src="data.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>
