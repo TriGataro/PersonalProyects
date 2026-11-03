@@ -1,0 +1,12 @@
+# robots.txt del portafolio de Trigataro
+# Permite indexar todas las páginas y recursos públicos del sitio.
+
+User-agent: *
+Allow: /
+
+# Carpetas internas de configuración y desarrollo.
+Disallow: /.opencode/
+Disallow: /.git/
+
+# Cuando se agregue un sitemap, descomenta la siguiente línea:
+# Sitemap: https://trigataro.github.io/PersonalProyects/sitemap.xml
