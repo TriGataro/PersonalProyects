@@ -17,7 +17,8 @@
     { name: "SQL",        icon: "bi-filetype-sql",  color: "#e48e00" },
     { name: "Git",        icon: "bi-git",           color: "#f05032" },
     { name: "IA",         icon: "bi-robot",         color: "#8b5cf6" },
-    { name: "CI/CD",      icon: "bi-arrow-repeat",  color: "#0c576a" }
+    { name: "CI/CD",      icon: "bi-arrow-repeat",  color: "#0c576a" },
+    { name: "Nube",       icon: "bi-cloud-upload",  color: "#FFFF00" }
   ];
 
   /** Crea el <li> de una tecnología. */
