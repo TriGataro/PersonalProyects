@@ -31,7 +31,7 @@ export const catalogProyects = [
 	},
 	{
 		"id": 6,
-		"name": "APP de descarga de popular plataforma de videos",
+		"name": "APP para Windows de descarga de popular plataforma de videos",
 		"link": "https://1drv.ms/u/c/9c82272ba192b94d/IQCQA3HfU1F7RKBLyiktn55lAe4o2QjNB7Fv0jLNKQ2NrlU?e=qUu3iV",
 		"visible": true
 	}
