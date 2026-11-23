@@ -1,6 +1,6 @@
-# Trigataro | Portafolio de Desarrollador Full Stack
+# Trigataro | Claudio Ruiz | Software engineer |Portafolio de Desarrollador Full Stack
 
-> Portafolio profesional y sitio de proyectos personales de Claudio Ruiz (Trigataro), desarrollador Full Stack especializado en desarrollo web, soluciones para empresas y consultorías tecnológicas.
+> Portafolio profesional y sitio de proyectos personales de Claudio Ruiz (Trigataro), software engineer, desarrollador Full Stack especializado en desarrollo web, soluciones para empresas y consultorías tecnológicas.
 
 ## Acerca del sitio
 Este sitio web presenta una selección de proyectos publicados por Claudio Ruiz, mostrando sus habilidades técnicas, stack tecnológico y vías de contacto directo para proyectos remotos o colaboraciones.
