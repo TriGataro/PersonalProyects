@@ -34,6 +34,12 @@ export const catalogProyects = [
 		"name": "APP para Windows de descarga de popular plataforma de videos",
 		"link": "https://1drv.ms/u/c/9c82272ba192b94d/IQCQA3HfU1F7RKBLyiktn55lAe4o2QjNB7Fv0jLNKQ2NrlU?e=qUu3iV",
 		"visible": true
+	},
+	{
+		"id": 7,
+		"name": "Gemas Inifinitas.",
+		"link": "https://trigataro.github.io/GemasInfinitas/",
+		"visible": true
 	}
 ]
 
@@ -69,5 +75,10 @@ export const PROJECT_META = {
         icon: "bi-cloud-download",
         category: "Software",
         description: "App de descarga musica y videos de directo a tu escritorio. Descarga y descomprime."
+    },
+	7: {
+        icon: "bi-rocket-takeoff-fill",
+        category: "Juego",
+        description: "Puzzle de eliminacion de joyas."
     }
 };
